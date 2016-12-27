@@ -1,129 +1,23 @@
-@font-face {
-  font-family: 'proxima_nova_ltlight';
-  src: url('../fonts/proxima_nova_light-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/bg.png);
 }
 
-.icwmt-closed {
-  width: 500px;
-  margin: 0 auto;
-  padding-top: 177px;
-}
 
-.icwmt-closed__header {
-  overflow: hidden;
-  padding-bottom: 70px;
-}
-
-.icwmt-closed__header-logo {
-  float: left;
-  width: 142px;
-}
-
-.icwmt-closed__header-link {
-  display: block;
-  width: 142px;
-  height: 133px;
-  background-image: url(../images/logo/logo.jpg);
-}
-
-.icwmt-closed__header-title {
-  float: right;
-  width: 259px;
-  height: 112px;
-  margin-top: 11px;
-  margin-right: 16px;
-  background-image: url(../images/close.png);
-}
-
-.icwmt-closed__content {
-  clear: both;
-}
-
-.icwmt-closed__content p {
-  font-family: 'proxima_nova_ltlight';
-  font-size: 20px;
-  line-height: 28px;
-  margin: 0;
-  color: #141921;
-}
-
-.icwmt-closed__content p:nth-of-type(2) {
-  font-size: 16px;
-  line-height: 23px;
-  margin-top: 26px;
-  margin-bottom: 29px;
-}
-
-.icwmt-closed__content p:last-child {
-  margin-bottom: 50px;
-}
-
-.icwmt-closed__content a {
-  color: #6699eb;
-}
-
-.icwmt-closed__content strong {
-  font-family: 'proxima_nova_rgbold';
-}
 
 /* Diffrent display layout styles */
 
 @media screen and (max-width: 1179px) {
 
-  .icwmt-closed {
-    padding-top: 100px;
-  } 
 
 }
 
 @media screen and (max-width: 749px) {
 
-  .icwmt-closed {
-    padding-top: 50px;
-  }
 
 }
 
 @media screen and (max-width: 499px) {
 
-  .icwmt-closed {
-    width: auto;
-    text-align: center;
-  }
-
-  .icwmt-closed__header {
-    padding-bottom: 30px;
-  }
-
-  .icwmt-closed__header-logo,
-  .icwmt-closed__header-title {
-    float: none;
-    margin: 0 auto;
-  }
-
-  .icwmt-closed__header-logo {
-    margin-bottom: 30px;
-  }
-
-  .icwmt-closed__content p {
-    padding: 0 20px;
-  }
 
 }
