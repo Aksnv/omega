@@ -3,6 +3,42 @@ body {
   padding: 0;
 }
 
+.zp-closed {
+  width: 810px;
+  margin: 0 auto;
+}
+
+.zp-closed__video-link a {
+  display: block;
+  width: 300px;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.zp-closed__registration-link a {
+  display: block;
+  width: 480px;
+  height: 75px;
+  box-sizing: border-box;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  border-bottom: 5px solid #457319;
+  background-image: linear-gradient(to top, #7ac230, #99d06a);
+  color: #000000;
+}
+
+.zp-closed__registration-link span {
+  display: block;
+  font-size: 12px;
+}
 
 
 /* Diffrent display layout styles */
