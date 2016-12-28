@@ -4,8 +4,14 @@ body {
 }
 
 .zp-closed {
-  width: 810px;
+  width: 814px;
+  height: 779px;
   margin: 0 auto;
+  background-image: url(../images/bg.jpg);
+}
+
+.zp-closed p {
+  margin: 0;
 }
 
 .zp-closed__video-link a {
