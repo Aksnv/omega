@@ -82,6 +82,52 @@ p.zp-closed__sale {
   background-repeat: no-repeat;
 }
 
+.zp-closed__video {
+  position: relative;
+  width: 720px;
+  display: none;
+  margin: 0 auto;
+  padding-top: 142px;
+  padding-bottom: 52px;
+}
+
+.zp-closed__video iframe {
+  width: 720px;
+  height: 433px;
+}
+
+.zp-closed__video-button {
+  position: absolute;
+  right: 0;
+  top: 108px;
+  display: none;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.zp-closed__video-button::before,
+.zp-closed__video-button::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 19px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.zp-closed__video-button::before {
+  left: -3px;
+  top: 6px;
+  transform: rotate(45deg);
+}
+
+.zp-closed__video-button::after {
+  left: -3px;
+  top: 6px;
+  transform: rotate(-45deg);
+}
+
 .zp-closed__registration-link a {
   display: block;
   width: 481px;
