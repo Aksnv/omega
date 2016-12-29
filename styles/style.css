@@ -73,13 +73,15 @@ p.zp-closed__sale {
   margin: 0 auto;
   padding-right: 6px;
   padding-bottom: 45px;
-  background-image: url(../images/video_link.png);
+  background-image: url(../images/video_link.png), url(../images/video_link_hover.png);
   background-repeat: no-repeat;
+  /* background-size: 100%, 0%; */
 }
 
 .zp-closed__video-link a:hover {
   background-image: url(../images/video_link_hover.png);
   background-repeat: no-repeat;
+  /* background-size: 100%; */
 }
 
 .zp-closed__registration-link a {
