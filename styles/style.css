@@ -4,10 +4,21 @@ body {
 }
 
 .zp-closed {
-  width: 814px;
-  height: 779px;
+  /* Правки верстки */
+  width: 810px;
+  /* height: 775px; */
+  text-align: left;
+  /* END - Правки верстки */
   margin: 0 auto;
+  /* Правки верстки */
+  padding-bottom: 66px;
+  /* END - Правки верстки */
   background-image: url(../images/bg.jpg);
+  /* Правки верстки */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #61bf37;
+  /* END - Правки верстки */
 }
 
 .zp-closed p {
